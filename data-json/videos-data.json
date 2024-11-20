@@ -1,0 +1,22 @@
+[
+  { "src": "vids/yarmarka.mp4", "caption": "Ярмарка культур" },
+  { "src": "vids/russian.mp4", "caption": "Русская культура" },
+  { "src": "vids/belorus.mp4", "caption": "Белорусская культура" },
+  { "src": "vids/tatar.mp4", "caption": "Татарская культура" },
+  { "src": "vids/chechen.mp4", "caption": "Чеченская культура" },
+  { "src": "vids/chinese.mp4", "caption": "Китайская культура" },
+  { "src": "vids/dagestan.mp4", "caption": "Культура народов Дагестана" },
+  { "src": "vids/georgian.mp4", "caption": "Грузинская культура" },
+  { "src": "vids/karach-balkar.mp4", "caption": "Карачаево-черкесская культура" },
+  { "src": "vids/abhazian.mp4", "caption": "Абхазская культура" },
+  { "src": "vids/adygeya.mp4", "caption": "Адыгейская культура" },
+  { "src": "vids/armenian.mp4", "caption": "Армянская культура" },
+  { "src": "vids/azerbaijan.mp4", "caption": "Азербайджанская культура" },
+  { "src": "vids/ingush.mp4", "caption": "Ингушская культура" },
+  { "src": "vids/kyrgyzstan.mp4", "caption": "Кыргызская культура" },
+  { "src": "vids/mongolian.mp4", "caption": "Монгольская культура" },
+  { "src": "vids/osetia.mp4", "caption": "Осетинская культура" },
+  { "src": "vids/tadjikistan.mp4", "caption": "Таджикская культура" },
+  { "src": "vids/turkmen.mp4", "caption": "Туркменская культура" },
+  { "src": "vids/uzbekistan.mp4", "caption": "Узбекская культура" }
+]

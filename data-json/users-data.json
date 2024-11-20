@@ -1,0 +1,29 @@
+[
+  {
+    "username": "user@ranepa.ru",
+    "password": "password123",
+    "name": "Иванов Иван Иванович",
+    "group": "3",
+    "course": "5",
+    "src": "pics/prof-pic.png",
+    "events": [
+      {
+        "event-name": "event name 1",
+        "date": "6.07.2025"
+      },
+      {
+        "event-name": "event name 2",
+        "date": "12.08.2025"
+      },
+      {
+        "event-name": "Калейдоскоп культур",
+        "date": "01.02.2025"
+      }
+    ]
+  },
+  {
+    "username": "user2@ranepa.ru",
+    "password": "password456",
+    "name": "Петрова Мария Петровна"
+  }
+]

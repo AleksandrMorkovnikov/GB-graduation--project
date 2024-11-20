@@ -1,0 +1,55 @@
+[
+  {
+    "tg": [
+      {
+        "text": "РАНХиГС. Новости",
+        "href": "https://t.me/mainranepa",
+        "id": "1"
+      },
+      {
+        "text": "Академия. Вся Россия",
+        "href": "https://t.me/ranepa_regions",
+        "id": "2"
+      },
+      {
+        "text": "Абитура. Президентская академия",
+        "href": "https://t.me/ranepaabitura",
+        "id": "3"
+      },
+      {
+        "text": "Профессия 2.0. Президентская академия",
+        "href": "https://t.me/trudranepa",
+        "id": "4"
+      },
+      {
+        "text": "Канал Алексея Комиссарова",
+        "href": "https://t.me/akomissarov2022",
+        "id": "5"
+      },   
+      {
+        "text": "Экспертиза. Президентская академия",
+        "href": "https://t.me/ranepa_expertise",
+        "id": "6"
+      }
+    ]
+  },
+  {
+    "vk": [
+      {
+        "text": "Президентская академия",
+        "href": "https://vk.com/theacademy",
+        "id": "1"
+      },
+      {
+        "text": "Алексей Комиссаров",
+        "href": "https://vk.com/rektorkomissarov",
+        "id": "2"
+      },
+      {
+        "text": "Иду в Академию",
+        "href": "https://vk.com/ranepaabitura",
+        "id": "3"
+      }
+    ]
+  }
+]

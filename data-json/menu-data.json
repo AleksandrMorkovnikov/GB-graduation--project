@@ -1,0 +1,236 @@
+[
+  {
+    "Applicants": [
+      {
+        "text": "Бакалавр",
+        "id": "1",
+        "children": [
+          { "text": "Поступающим", "href": "https://www.ranepa.ru/bakalavriat/", "id": "" },
+          { "text": "Подбор программ", "href": "https://www.ranepa.ru/bakalavriat/napravleniya-i-programmy/?level=bakalavriat&page=1&search=&budget=[]&forma=[]&ekzamen=[2]&napr=[]&institute=[]&minprice=[]&maxprice=[]#level=bakalavriat&page=1&search=&budget=[]&forma=[]&ekzamen=[2]&napr=[]&institute=[]&minprice=[]&maxprice=[]", "id": "" }
+        ]
+      },
+      {
+        "text": "Магистратура",
+        "id": "2",
+        "children": [
+          { "text": "Поступающим", "href": "https://www.ranepa.ru/magistratura/", "id": "" },
+          { "text": "Подбор программ", "href": "https://www.ranepa.ru/magistratura/napravleniya-i-programmy/", "id": "" }
+        ]
+      },
+      {
+        "text": "Аспирантура и докторантура",
+        "id": "3",
+        "children": [
+          { "text": "Поступающим в аспирантуру", "href": "https://www.ranepa.ru/podgotovka-nauchnykh-kadrov/aspirantura/osnovnaya-informatsiya/", "id": "" },
+          { "text": "Конкурсные списки", "href": "https://my.ranepa.ru/online/pk/list/list.php?FT=2&FL=3", "id": "" },
+          { "text": "Списки подавших документы", "href": "https://my.ranepa.ru/online/pk/list/list.php?FT=1&FL=3", "id": "" },
+          { "text": "Поступающим в докторантуру", "href": "https://www.ranepa.ru/podgotovka-nauchnykh-kadrov/doktorantura/", "id": "" },
+          {
+            "text": "Прикрепление для подготовки диссертации",
+            "href": "https://www.ranepa.ru/podgotovka-nauchnykh-kadrov/doktorantura/",
+            "id": ""
+          },
+          {
+            "text": "Порядок организации защит диссертаций",
+            "href": "https://www.ranepa.ru/podgotovka-nauchnykh-kadrov/zashchity-dissertatsii/",
+            "id": ""
+          },
+          { "text": "Объявления о защитах диссертаций", "href": "https://www.ranepa.ru/podgotovka-nauchnykh-kadrov/dissertatsiy-obyavleniya-o-zashchitax/", "id": "" }
+        ]
+      },
+      {
+        "text": "Среднее профессиональное образование",
+        "href": "#",
+        "id": "4",
+        "children": [
+          { "text": "Поступающим", "href": "https://www.ranepa.ru/srednee-professionalnoe-obrazovanie/", "id": "" },
+          { "text": "Подбор программ", "href": "https://www.ranepa.ru/srednee-professionalnoe-obrazovanie/kolledzh-mnogourovnevogo-professionalnogo-obrazovaniya/", "id": "" },
+          { "text": "Конкурсные списки (бюджет)", "href": "https://my.ranepa.ru/online/pk/list/list.php?FT=2&FL=2&FK=&FC=&FB=&FO=&", "id": "" },
+          { "text": "Конкурсные списки (договор)", "href": "https://my.ranepa.ru/online/pk/list/list.php?FT=2&FL=2&FK=&FC=&FB=&FO=4&", "id": "" }
+        ]
+      },
+      {
+        "text": "Довузовская подготовка",
+        "href": "#",
+        "id": "5",
+        "children": [
+          { "text": "Олимпиады для школьников", "href": "https://www.ranepa.ru/olymp/", "id": "" },
+          { "text": "Олимпиада для учащихся СПО", "href": "https://www.ranepa.ru/olympspo/", "id": "" },
+          {
+            "text": "Всероссийский открытый интеллектуально-творческий конкурс «Государство — это мы»",
+            "href": "https://www.ranepa.ru/gem",
+            "id": ""
+          },
+          {
+            "text": "Подготовка к ЕГЭ и вступительным испытаниям",
+            "href": "https://www.ranepa.ru/pre-university",
+            "id": ""
+          },
+          { "text": "Экскурсии по академии", "href": "https://www.ranepa.ru/ekskursii-po-prezidentskoy-akademii/", "id": "" }
+        ]
+      },
+      {
+        "text": "Приемная комиссия",
+        "href": "#",
+        "id": "6",
+        "children": [
+          {
+            "text": "Сведения об образовательной организации",
+            "href": "https://www.ranepa.ru/sveden/common/",
+            "id": ""
+          }
+        ]
+      },
+      {
+        "text": "Полезное",
+        "href": "#",
+        "id": "7",
+        "children": [
+          { "text": "Институты/факультеты Академии", "href": "https://www.ranepa.ru/instituty-i-fakultety/", "id": "" },
+          { "text": "Филиалы Академии", "href": "https://www.ranepa.ru/filialy/", "id": "" },
+          {
+            "text": "Военный учебный центр",
+            "href": "https://www.ranepa.ru/vuts/",
+            "id": ""
+          },
+          {
+            "text": "Общежития",
+            "href": "https://www.ranepa.ru/obshchezhitiya",
+            "id": ""
+          },
+          { "text": "Иностранным абитуриентам", "href": "https://www.ranepa.ru/inostrannym-studentam/", "id": "" },
+          { "text": "Проект «Антимошенник»", "href": "https://www.ranepa.ru/antimoshennichestvo/", "id": "" }
+        ]
+      },
+      {
+        "text": "ДОД-365 – это Академия без границ",
+        "href": "#",
+        "id": "8",
+        "children": [
+          {
+            "text": "Дни открытых дверей Академии",
+            "href": "https://www.ranepa.ru/dni-otkrytykh-dverey/",
+            "id": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Students": [
+      {
+        "text": "Академия в Москве",
+        "id": "1",
+        "children": [
+          { "text": "Студенческий офис Академии", "href": "https://www.ranepa.ru/mfc/", "id": "" },
+          { "text": "Военный учебный центр", "href": "https://www.ranepa.ru/vuts/", "id": "" },
+          { "text": "Общежития", "href": "https://www.ranepa.ru/obshchezhitiya/", "id": "" },
+          { "text": "Молодежная политика", "href": "https://www.ranepa.ru/molodezhnaya-politika/", "id": "" }
+        ]
+      },
+      {
+        "text": "Дополнительные возможности",
+        "id": "4",
+        "children": [
+          { "text": "Цифровые кафедры", "href": "https://www.ranepa.ru/dd/", "id": "" },
+          { "text": "Акселератор Startup EdTech Heroes", "href": "https://www.ranepa.ru/akselerator/", "id": "" }
+        ]
+      },
+      {
+        "text": "",
+        "id": "7",
+        "children": [
+          {
+            "text": "Стипендии и поддержка: инвестируем в ваше будущее",
+            "href": "https://www.ranepa.ru/stipendii/",
+            "id": ""
+          },
+          {
+            "text": "Переводы и восстановления в Академию",
+            "href": "https://www.ranepa.ru/perevody-i-vosstanovleniya/",
+            "id": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Academy": [
+      {
+        "text": "Структура и история",
+        "id": "1",
+        "children": [
+          { "text": "Ректорат", "href": "https://www.ranepa.ru/rektorat/", "id": "" },
+          { "text": "Институты/факультеты Академии", "href": "https://www.ranepa.ru/instituty-i-fakultety/", "id": "" },
+          { "text": "Филиалы Академии", "href": "https://www.ranepa.ru/filialy/", "id": "" },
+          { "text": "Издательский дом «Дело»", "href": "http://izdateldelo.ru/", "id": "" },
+          { "text": "Академия: вчера, сегодня, завтра", "href": "https://www.ranepa.ru/akademiya-vchera-segodnya-zavtra/", "id": "" },
+          {
+            "text": "Кодекс этики Президентской академии",
+            "href": "https://www.ranepa.ru//upload/work-files/kodeks_etiki.pdf",
+            "id": ""
+          }
+        ]
+      },
+      {
+        "text": "Академия сегодня",
+        "id": "4",
+        "children": [
+          { "text": "Карта московского кампуса", "href": "https://www.ranepa.ru/upload/work-files/Ranepa_map_0826.pdf", "id": "" },
+          { "text": "Обучение служением", "href": "https://www.ranepa.ru/obuchenie-sluzheniem/", "id": "" },
+          {
+            "text": "Федеральная инновационная площадка",
+            "href": "https://www.ranepa.ru/fip/",
+            "id": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Science": [
+      {
+        "text": "Наука",
+        "id": "1",
+        "children": [
+          { "text": "Наукометрия", "href": "https://www.ranepa.ru/nauka/naukometria", "id": "" },
+          { "text": "Научные статьи — это просто", "href": "https://www.ranepa.ru/nauka/awcc", "id": "" },
+          { "text": "Научные журналы Академии", "href": "https://www.ranepa.ru/nauka/nauchnye-zhurnaly-akademii/", "id": "" },
+          {
+            "text": "III Всероссийский Налоговый диктант",
+            "href": "https://www.ranepa.ru/nauka/diktant/",
+            "id": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Media": [
+      {
+        "text": "Публикации",
+        "id": "1",
+        "children": [
+          { "text": "Блог Академии", "href": "https://www.ranepa.ru/blog/", "id": "" },
+          { "text": "Новости", "href": "https://www.ranepa.ru/news/", "id": "" }
+        ]
+      },
+      {
+        "text": "  ",
+        "id": "4",
+        "children": [
+          {
+            "text": "Официальные социальные сети и мессенджеры Президентской академии",
+            "href": "https://www.ranepa.ru/sotsialnye-seti-akademii/",
+            "id": ""
+          },
+          {
+            "text": "Дирекция по информационной политике и связям с общественностью",
+            "href": "https://www.ranepa.ru/dipso/",
+            "id": ""
+          }
+        ]
+      }
+    ]
+  }
+]

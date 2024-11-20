@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script type="module" src="../js/main.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="../js/slider.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:wght@100;300;400;700;900&family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="center header">
+      <div class="header__top">
+        <div class="header__left">
+          <div class="burger-menu" id="mobile-menu">
+            <img
+              class="burger-menu__ico"
+              src="/icons/burger-button.svg"
+              alt="Открыть меню"
+            />
+            <div class="burger-menu__close" id="close-menu">×</div>
+            <ul class="burger-head__nav mobile-nav" id="nav-content">
+              <li
+                class="burger-head__nav-item"
+                data-menu="Applicants"
+                display="none"
+              >
+                <p class="burger-head__link">Поступающим</p>
+                <div class="burger-head__nav__dropdown"></div>
+              </li>
+              <li class="burger-head__nav-item" data-menu="Students">
+                <p class="burger-head__link">Студентам</p>
+                <div class="burger-head__nav__dropdown"></div>
+              </li>
+              <li class="burger-head__nav-item" data-menu="Academy">
+                <p class="burger-head__link">Академия</p>
+                <div class="burger-head__nav__dropdown"></div>
+              </li>
+              <li class="burger-head__nav-item" data-menu="Science">
+                <p class="burger-head__link">Наука</p>
+                <div class="burger-head__nav__dropdown"></div>
+              </li>
+              <li class="burger-head__nav-item" data-menu="Media">
+                <p class="burger-head__link">Медиа</p>
+                <div class="burger-head__nav__dropdown"></div>
+              </li>
+              <li class="burger-head__nav-item">
+                <a
+                  href="https://pyrus.com/form/1091126"
+                  class="burger-head__link"
+                  style="color: #df2935"
+                >
+                  Электронная приемная
+                </a>
+                <div class="burger-head_nav__dropdown"></div>
+              </li>
+            </ul>
+          </div>
+          <a class="header__logo" href="/">
+            <img src="icons/ranepa-logo.svg" alt="#" />
+          </a>
+        </div>
+        <div id="open-login-modal" class="header__right">
+          Войти
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15 3H19C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H15"
+              stroke="#2A253E"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+            <path
+              d="M10 17L15 12L10 7"
+              stroke="#2A253E"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+            <path
+              d="M15 12H3"
+              stroke="#2A253E"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </svg>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="header__region">
+          <img class="header__ico" src="icons/region.svg" alt="" />
+          <p id="nearest-city"></p>
+        </div>
+        <ul class="header__nav desktop-nav">
+          <li class="header-nav__item" data-menu="Applicants" display="none">
+            <p class="header__link">Поступающим</p>
+            <div class="header-nav__dropdown"></div>
+          </li>
+          <li class="header-nav__item" data-menu="Students">
+            <p class="header__link">Студентам</p>
+            <div class="header-nav__dropdown"></div>
+          </li>
+          <li class="header-nav__item" data-menu="Academy">
+            <p class="header__link">Академия</p>
+            <div class="header-nav__dropdown"></div>
+          </li>
+          <li class="header-nav__item" data-menu="Science">
+            <p class="header__link">Наука</p>
+            <div class="header-nav__dropdown"></div>
+          </li>
+          <li class="header-nav__item" data-menu="Media">
+            <p class="header__link">Медиа</p>
+            <div class="header-nav__dropdown"></div>
+          </li>
+          <li class="header-nav__item">
+            <a
+              class="header__link"
+              href="https://pyrus.com/form/1091126"
+              style="color: #df2935"
+            >
+              Электронная приемная
+            </a>
+            <div class="header-nav__dropdown"></div>
+          </li>
+        </ul>
+        <div class="header__socio">
+          <ul class="socio__list">
+            <li socio-menu="tg" class="socio__item">
+              <button class="socio__button">
+                <img class="socio__ic" src="icons/tg-logo.svg" alt="#" />
+              </button>
+              <div class="socio__sublist socio__top"></div>
+            </li>
+            <li socio-menu="vk" class="socio__item">
+              <button class="socio__button">
+                <img class="socio__ic" src="icons/vk-logo.svg" alt="#" />
+              </button>
+              <div class="socio__sublist socio__top"></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="center news-details__back">
+        <a class="link-back" href="/list.html"> Назад</a>
+      </section>
+      <section class="center news-details__top">
+        <div class="news-details_visual">
+          <div class="news-details__title">
+            <h1 class="news-details__heading">
+              В Президенсткой Академии проходит "Калейдоскоп культур"
+            </h1>
+          </div>
+          <div class="news-details__pic-box">
+            <img
+              class="news-details__pic"
+              src="pics/main-pic.jpg"
+              width="1200"
+              height="auto"
+              alt="#"
+            />
+          </div>
+        </div>
+        <div></div>
+      </section>
+      <section class="news-details__text-box">
+        <article class="news-details__text">
+          <p class="acticle-text_item">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam
+            voluptas, totam minima autem fuga consectetur doloremque nulla
+            quidem deserunt reiciendis asperiores neque et est fugiat
+            voluptatibus cum pariatur vero aliquam temporibus repellat natus,
+            qui saepe officia eveniet! Saepe, velit consequatur.
+          </p>
+          <p class="acticle-text_item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sed
+            deserunt aut maiores eum, laboriosam ut numquam cumque laudantium,
+            error blanditiis vel temporibus minus. Saepe excepturi quam enim
+            explicabo soluta laudantium itaque eius deserunt cupiditate
+            accusantium dolor ad iusto iure in sapiente, repellendus ducimus
+            blanditiis? Soluta, perferendis iure. Mollitia, error!
+          </p>
+          <p class="acticle-text_item">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio
+            aliquid rerum necessitatibus, possimus iure nesciunt amet veniam
+            nostrum iste minus.
+          </p>
+          <p class="acticle-text_item">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+            totam obcaecati quod quam autem consectetur veniam sunt maxime
+            aspernatur maiores hic, accusantium eligendi cum repudiandae labore
+            dolorum reprehenderit. Non reprehenderit optio molestias. Quasi
+            neque quas nostrum quam porro quibusdam minima!
+          </p>
+          <p class="acticle-text_item">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Necessitatibus ex sapiente et sunt ducimus inventore itaque eum.
+            Enim, perspiciatis voluptates?
+          </p>
+        </article>
+      </section>
+      <div class="slider">
+        <div class="slider">
+          <button class="slider__button slider__button-left">🡸</button>
+
+          <div class="slider__viewport">
+            <div class="slide" id="slideContainer">
+              <video class="slide__video" controls></video>
+              <p class="slide__caption"></p>
+            </div>
+          </div>
+
+          <button class="slider__button slider__button-right">🡺</button>
+        </div>
+      </div>
+      <div class="center event">
+        <p class="event__hidden">Ждем Вас!</p>
+        <button class="event__button" id="attendButton">Хочу посетить!</button>
+        <p class="event__counter" id="attendeesCount"></p>
+      </div>
+      <div class="share">
+        <div class="center share__box">
+          <p class="share__paragraph">Поделиться</p>
+          <ul class="share__list">
+            <li id="copyLinkButton" class="share__item">
+              <svg
+                class="share__ico share-ico__visible"
+                data-svg-default=""
+                width="42"
+                height="42"
+                viewBox="0 0 42 42"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                id="ico-link"
+              >
+                <rect
+                  x="0.5"
+                  y="0.5"
+                  width="41"
+                  height="41"
+                  rx="20.5"
+                  stroke="#E5E1F0"
+                ></rect>
+                <path
+                  d="M19.3909 21.8054C19.7364 22.2677 20.1772 22.6503 20.6835 22.9272C21.1897 23.204 21.7494 23.3686 22.3248 23.4099C22.9002 23.4511 23.4777 23.368 24.0181 23.1662C24.5586 22.9644 25.0493 22.6486 25.4572 22.2402L27.8708 19.8242C28.6035 19.0647 29.009 18.0476 28.9998 16.9918C28.9907 15.936 28.5676 14.926 27.8218 14.1794C27.0759 13.4328 26.067 13.0093 25.0122 13.0002C23.9575 12.991 22.9414 13.3969 22.1827 14.1304L20.7989 15.5075M22.6091 20.1946C22.2636 19.7323 21.8228 19.3497 21.3165 19.0728C20.8103 18.796 20.2506 18.6314 19.6752 18.5901C19.0998 18.5489 18.5223 18.632 17.9819 18.8338C17.4414 19.0356 16.9507 19.3514 16.5428 19.7598L14.1292 22.1758C13.3965 22.9353 12.991 23.9524 13.0002 25.0082C13.0093 26.064 13.4324 27.074 14.1782 27.8206C14.9241 28.5672 15.933 28.9907 16.9877 28.9998C18.0425 29.009 19.0586 28.6031 19.8173 27.8696L21.1931 26.4925"
+                  stroke="#DF2935"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+              <div id="ico-comp" class="share__border share-ico__hidden">
+                <svg
+                  class="share__ico"
+                  fill="#df2935"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="16px"
+                  height="16px"
+                  viewBox="0 0 78.369 78.369"
+                  xml:space="preserve"
+                >
+                  <path
+                    d="M78.049,19.015L29.458,67.606c-0.428,0.428-1.121,0.428-1.548,0L0.32,40.015c-0.427-0.426-0.427-1.119,0-1.547l6.704-6.704
+                                  c0.428-0.427,1.121-0.427,1.548,0l20.113,20.112l41.113-41.113c0.429-0.427,1.12-0.427,1.548,0l6.703,6.704
+                                  C78.477,17.894,78.477,18.586,78.049,19.015z"
+                  ></path>
+                </svg>
+              </div>
+            </li>
+            <li class="share__item">
+              <a
+                href="https://t.me/share/url?url=https://www.ranepa.ru/news/prezidentskaya-akademiya-rasshiryaet-obrazovatelnye-obmeny-s-braziliey-v-ramkakh-briks/"
+              >
+                <svg
+                  class="share__ico"
+                  width="42"
+                  height="42"
+                  viewBox="0 0 42 42"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    class="share__border"
+                    x="0.5"
+                    y="0.5"
+                    width="41"
+                    height="41"
+                    rx="20.5"
+                    stroke="#E5E1F0"
+                  ></rect>
+                  <path
+                    d="M11.5729 20.6686C11.5729 20.6686 19.3127 17.3073 21.997 16.1236C23.026 15.6502 26.5157 14.1352 26.5157 14.1352C26.5157 14.1352 28.1263 13.4724 27.9921 15.0821C27.9473 15.7449 27.5894 18.0647 27.2315 20.5739C26.6946 24.1248 26.113 28.0069 26.113 28.0069C26.113 28.0069 26.0235 29.0959 25.263 29.2852C24.5024 29.4746 23.2497 28.6225 23.0261 28.433C22.847 28.291 19.6706 26.1605 18.5074 25.119C18.1942 24.8349 17.8363 24.2668 18.5521 23.604C20.1627 22.0416 22.0865 20.1005 23.2497 18.8696C23.7866 18.3014 24.3234 16.9758 22.0865 18.5855C18.9101 20.9054 15.7783 23.0832 15.7783 23.0832C15.7783 23.0832 15.0625 23.5566 13.7204 23.1305C12.3781 22.7045 10.8123 22.1363 10.8123 22.1363C10.8123 22.1363 9.73862 21.4262 11.5729 20.6686Z"
+                    fill="#DF2935"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+            <li class="share__item">
+              <a
+                href="https://vk.com/share.php?url=https://www.ranepa.ru/news/prezidentskaya-akademiya-rasshiryaet-obrazovatelnye-obmeny-s-braziliey-v-ramkakh-briks/"
+              >
+                <svg
+                  class="share__ico"
+                  width="42"
+                  height="42"
+                  viewBox="0 0 42 42"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    class="share__border"
+                    x="0.5"
+                    y="0.5"
+                    width="41"
+                    height="41"
+                    rx="20.5"
+                    stroke="#E5E1F0"
+                  ></rect>
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M31.0181 16.5202C31.1641 16.0762 31.0181 15.75 30.3234 15.75H28.026C27.4418 15.75 27.1725 16.0318 27.0264 16.3426C27.0264 16.3426 25.8581 18.9399 24.2031 20.6271C23.6676 21.1154 23.4242 21.2708 23.1321 21.2708C22.9861 21.2708 22.7747 21.1154 22.7747 20.6715V16.5202C22.7747 15.9875 22.6052 15.75 22.1183 15.75H18.5081C18.1431 15.75 17.9235 15.9973 17.9235 16.2316C17.9235 16.7367 18.751 16.8532 18.8363 18.274V21.3597C18.8363 22.0362 18.7024 22.1588 18.4103 22.1588C17.6314 22.1588 15.7369 19.5499 14.6133 16.5646C14.3931 15.9844 14.1723 15.75 13.5851 15.75H11.2877C10.6313 15.75 10.5 16.0318 10.5 16.3426C10.5 16.8976 11.2789 19.6503 14.1266 23.291C16.025 25.7773 18.6998 27.125 21.1337 27.125C22.5941 27.125 22.7747 26.8257 22.7747 26.31V24.4309C22.7747 23.8322 22.9131 23.7128 23.3755 23.7128C23.7163 23.7128 24.3004 23.8681 25.6634 25.0669C27.2211 26.4876 27.478 27.125 28.3542 27.125H30.6516C31.308 27.125 31.6362 26.8257 31.4468 26.2349C31.2396 25.6462 30.4959 24.7919 29.5091 23.7793C28.9736 23.2022 28.1704 22.5806 27.927 22.2698C27.5862 21.8702 27.6836 21.6926 27.927 21.3374C27.927 21.3374 30.726 17.7412 31.0181 16.5202Z"
+                    fill="#DF2935"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer class="center footer">
+      <div class="footer__container">
+        <div class="footer__info">
+          <a href="/">
+            <img src="icons/ranepa-logo.svg" alt="#" />
+          </a>
+        </div>
+        <ul class="footer__links-list">
+          <li class="footer__links-item">
+            <a class="footer__link" href="#"
+              >Сведения об образовательной организации</a
+            >
+          </li>
+        </ul>
+        <div class="footer__contacts">
+          <ul class="ladder__list">
+            <li>
+              <p class="ladder__title">Справочная служба</p>
+              <ul class="ladder__sublist">
+                <li><a class="ladder__link" href="">+7 (499) 956-99-99</a></li>
+                <li>
+                  <a class="ladder__link" href="">information@ranepa.ru</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p class="ladder__title">Приемная комиссия</p>
+              <ul class="ladder__sublist">
+                <li><a class="ladder__link" href="">pkranepa@ranepa.ru</a></li>
+              </ul>
+            </li>
+            <li>
+              <p class="ladder__title">Пресс-служба</p>
+              <ul class="ladder__sublist">
+                <li><a class="ladder__link" href="">+7 (499) 956-98-79</a></li>
+                <li><a class="ladder__link" href="">press@ranepa.ru</a></li>
+              </ul>
+            </li>
+            <li>
+              <p class="ladder__title">Работа в Академии</p>
+              <ul class="ladder__sublist">
+                <li><a class="ladder__link" href="">rabota@ranepa.ru</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__socio">
+          <a class="footer__button" href="https://pyrus.com/form/1091126">
+            <div class="button__gradient">Электронная приемная</div>
+          </a>
+          <ul class="footer__socio-f-list socio-f__list">
+            <li socio-menu="tg" class="socio__item">
+              <div class="socio-f__tool">
+                <img class="socio-f__ico" src="icons/tg-logo.svg" alt="" />
+              </div>
+              <div class="socio__sublist socio__bottom"></div>
+            </li>
+            <li socio-menu="vk" class="socio__item">
+              <div class="socio-f__tool">
+                <img class="socio-f__ico" src="icons/vk-logo.svg" alt="" />
+                <div class="socio__sublist socio__bottom"></div>
+              </div>
+            </li>
+            <li>
+              <div class="socio-f__tool">
+                <img class="socio-f__ico" src="icons/oksvg.svg" alt="" />
+              </div>
+            </li>
+            <li>
+              <div class="socio-f__tool">
+                <img class="socio-f__ico" src="icons/rutubesvg.svg" alt="" />
+              </div>
+            </li>
+            <li>
+              <div class="socio-f__tool">
+                <img class="socio-f__ico" src="icons/dzensvg.svg" alt="" />
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__copyrights">
+          <div class="footer__text">
+            <p class="footer__copyright">
+              Оформление взято из открытого доступа в образовательных целях
+            </p>
+          </div>
+          <div class="footer__links">
+            Политика РАНХиГС в отношении обработки персональных данных
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

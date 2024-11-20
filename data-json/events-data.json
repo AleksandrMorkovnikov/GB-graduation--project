@@ -1,0 +1,10 @@
+[
+  { "src": "events/event-pic.png", "name": "event name", "caption": "event desription", "date": "21.01.2025", "href": "#" },
+  { "src": "events/kaleidoskop-pic.jpg", "name": "Калейдоскоп культур", "caption": "Описание калейдоскопа культур", "date": "01.02.2025", "href": "/index.html" },
+  { "src": "events/event-pic.png", "name": "event name", "caption": "event desription", "date": "11.03.2025", "href": "#" },
+  { "src": "events/event-pic.png", "name": "event name", "caption": "event desription", "date": "3.04.2025", "href": "#" },
+  { "src": "events/event-pic.png", "name": "event name", "caption": "event desription", "date": "6.05.2025", "href": "#" },
+  { "src": "events/event-pic.png", "name": "event name", "caption": "event desription", "date": "9.06.2025" },
+  { "src": "events/event-pic.png", "name": "event name", "caption": "event desription", "date": "12.07.2025", "href": "#" },
+  { "src": "events/event-pic.png", "name": "event name", "caption": "event desription", "date": "36.08.2025", "href": "#" }
+]
